@@ -1,10 +1,17 @@
 
 import SideBar from './sidebar/sideBar'
+import StatusBar from './statusBar/statusBar'
+import Timeline from './Timeline/timeline'
 function App() {
   return (
-    <>
-     <SideBar/>
-    </>
+    <div className='flex w-screen'>
+    <SideBar/>
+    <Timeline/>
+    <StatusBar/>
+    </div>
+    
+     
+    
   )
 }
 

@@ -1,7 +1,12 @@
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { library } from '@fortawesome/fontawesome-svg-core'
+
+
 export default function SideBarComponent(){
     return (<>
-    <div className=" bg-black text-white text-lg rounded-md w-64 h-64">
-        hey girl
+    <div className=" text-white text-md rounded-md w-full flex-row text-right px-5  h-14">
+    {/* <FontAwesomeIcon icon={faXTwitter} /> */}
+    .
     </div>
     </>)
 }
