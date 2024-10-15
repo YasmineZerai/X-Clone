@@ -1,12 +1,11 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { library } from '@fortawesome/fontawesome-svg-core'
+import { ReactNode } from "react";
 
+// 
 
-export default function SideBarComponent(){
+export default function SideBarComponent({ children }: { children: ReactNode }){
     return (<>
-    <div className=" text-white text-md rounded-md w-full flex-row text-right px-5  h-14">
-    {/* <FontAwesomeIcon icon={faXTwitter} /> */}
-    .
-    </div>
+    <button className=" text-white text-2xl rounded-full  w-1/3 h-14 flex items-center justify-center hover:bg-stone-900">
+     {children}
+    </button>
     </>)
 }
