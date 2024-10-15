@@ -1,3 +1,7 @@
+import TimelineHeader from "./timelineHeader";
+
 export default function Timeline(){
-    return (<div className="bg-black border-r h-screen w-1/2 border-gray-700"></div>)
+    return (<div className="bg-black border-r h-screen w-3/6 border-stone-900 flex flex-col align-top">
+        <TimelineHeader/>
+    </div>)
 }
