@@ -14,8 +14,10 @@ export default function TimelinePost(){
       <div className="flex flex-col justify-start gap-2 w-11/12">
         <div className="text-white flex items-center font-bold text-lg gap-2">
             <p>Yasmine Zerai</p>
-            <span className="text-gray-600"><DotIcon/></span>
             <p className="text-gray-600 font-normal">@Yass</p>
+            <span className="text-gray-600"><DotIcon/></span>
+            <p className="text-gray-600 font-normal"> 15 Oct</p>
+            
             
         </div>
         <p className="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iste explicabo excepturi alias tempore facilis, esse pariatur voluptatibus quibusdam itaque! Sunt dolores voluptatibus dignissimos voluptate neque a aspernatur recusandae atque!</p>
